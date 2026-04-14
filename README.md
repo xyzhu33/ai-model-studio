@@ -16,19 +16,6 @@ AI 虚拟模特工作室 Skill —— 接收服装图、场景图与文字描述
 
 ---
 
-## 环境要求
-
-### 对话流程（角色分析 + 设定卡生成）
-- **通用环境**均可运行
-- 无需额外依赖
-
-### 图片生成脚本（`scripts/`）
-- **支持bash执行的环境**（需要 bash 执行能力）
-- Python 3.10+
-- `requests` 库：`pip install requests`
-- 阿里云 DashScope API Key（用于调用 Wan2.7 万相图像生成）
-
----
 
 ## 快速开始
 
@@ -36,19 +23,8 @@ AI 虚拟模特工作室 Skill —— 接收服装图、场景图与文字描述
 
 1. 前往 [阿里云百炼平台](https://bailian.console.aliyun.com/) 注册账号
 2. 在控制台创建 API Key
-3. 设置环境变量：
 
-```bash
-export DASHSCOPE_API_KEY='your-api-key-here'
-```
-
-### 第二步：安装依赖
-
-```bash
-pip install requests
-```
-
-### 第三步：将 skill 放入正确路径
+### 第二步：将 skill 放入正确路径
 
 将整个 `ai-model-studio/` 文件夹放到你的 skill 目录下：
 
@@ -56,13 +32,13 @@ pip install requests
 .claude/skills/ai-model-studio/
 ```
 
-### 第四步：开始使用
+### 第三步：上传参考图，开始使用
 
-直接描述你的需求，例如：
+将参考图放到input image下，然后直接描述你的需求，例如：
 
-> 帮我生成一个亚裔模特，展示这件新中式紫色连衣裙，场景是中式园林。
+> 我需要展示purple1.jpeg这件紫色裙子，帮我生成一个亚裔模特，黑色微卷发，新中式妆造。
 
-系统会自动触发此 skill，进入角色分析 → 草案生成 → 模式选择 → 图片生成的完整流程。
+进入角色分析 → 草案生成 → 模式选择 → 图片生成的完整流程。
 
 ---
 

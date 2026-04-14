@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "scenario_guess": {
+    "value": "",
+    "confidence": "",
+    "reasoning": []
+  },
+  "source_summary": {
+    "text_priority_notes": [],
+    "image_findings": {
+      "character_refs": [],
+      "garment_refs": [],
+      "accessory_refs": [],
+      "product_refs": [],
+      "scene_refs": []
+    },
+    "reference_assets": [],
+    "scene_analysis": {
+      "environment": "",
+      "lighting": {
+        "type": "",
+        "direction": "",
+        "quality": "",
+        "color_temperature": ""
+      },
+      "color_tone": {
+        "dominant_colors": [],
+        "mood": "",
+        "saturation": "",
+        "contrast": ""
+      },
+      "spatial": {
+        "depth": "",
+        "perspective": "",
+        "focal_point": ""
+      },
+      "recommended_camera": {
+        "angle": "",
+        "shot_type": "",
+        "character_position": "",
+        "reasoning": ""
+      }
+    },
+    "garment_analysis": {
+      "style_essence": "",
+      "mood_keywords": [],
+      "recommended_pose": {
+        "body_stance": "",
+        "hand_placement": "",
+        "body_angle": "",
+        "weight_distribution": ""
+      },
+      "recommended_expression": {
+        "overall_mood": "",
+        "eye_direction": "",
+        "mouth_expression": "",
+        "chin_position": ""
+      },
+      "styling_notes": ""
+    },
+    "character_analysis": {
+      "face_core": {
+        "face_shape": "",
+        "facial_features": "",
+        "ethnicity_hints": "",
+        "age_range": ""
+      },
+      "facial_parts": {
+        "eye_shape": "",
+        "eye_character": "",
+        "nose_shape": "",
+        "lip_shape": "",
+        "brow_shape": ""
+      },
+      "hair_analysis": {
+        "hair_style": "",
+        "hair_color": "",
+        "hair_texture": ""
+      },
+      "style_judgment": {
+        "overall_aesthetic": "",
+        "vibe_keywords": [],
+        "commercial_appeal": ""
+      },
+      "recommended_face_variants": {
+        "variant_a": {
+          "label": "",
+          "description": "",
+          "face_shape_adjustment": "",
+          "eye_style_adjustment": "",
+          "feature_emphasis": "",
+          "lighting_mood": ""
+        },
+        "variant_b": {
+          "label": "",
+          "description": "",
+          "face_shape_adjustment": "",
+          "eye_style_adjustment": "",
+          "feature_emphasis": "",
+          "lighting_mood": ""
+        },
+        "variant_c": {
+          "label": "",
+          "description": "",
+          "face_shape_adjustment": "",
+          "eye_style_adjustment": "",
+          "feature_emphasis": "",
+          "lighting_mood": ""
+        }
+      }
+    }
+  },
+  "draft_profile": {
+    "one_line_concept": "",
+    "recommended_direction": {
+      "aesthetic": "",
+      "identity": "",
+      "appearance": "",
+      "styling": "",
+      "signature_points": []
+    },
+    "confidence_notes": [],
+    "assumptions": []
+  },
+  "mode": {
+    "selected": "fast",
+    "available": ["fast", "pro"]
+  },
+  "final_profile": {
+    "scenario_type": "",
+    "dimension_selection": {
+      "layer_1": {},
+      "layer_2": {},
+      "layer_3": {},
+      "layer_4": {},
+      "layer_5": {},
+      "layer_6": {},
+      "layer_7": {},
+      "layer_8": {}
+    },
+    "identity": {
+      "gender_expression": "",
+      "ethnicity_or_reference": "",
+      "apparent_age": "",
+      "role_or_background": ""
+    },
+    "physical_appearance": {
+      "body": {},
+      "face": {},
+      "hair": {},
+      "skin": {},
+      "hands": {}
+    },
+    "styling": {
+      "outfit_core": {},
+      "makeup": {},
+      "accessories": {},
+      "palette": {},
+      "fit_to_refs": []
+    },
+    "consistency_profile": {
+      "must_keep": [],
+      "seed_prompt_core": "",
+      "variation_rules": [],
+      "continuity_notes": [],
+      "anchor_portrait": {
+        "selected_index": null,
+        "source": "",
+        "method": ""
+      }
+    }
+  },
+  "generation_outputs": {
+    "close_up_prompt": "",
+    "medium_shot_prompt": "",
+    "full_body_prompt": "",
+    "three_view_prompt": "",
+    "expression_sheet_prompt": "",
+    "reference_composite_prompt": "",
+    "generated_files": []
+  }
+}
